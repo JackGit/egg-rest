@@ -1,6 +1,6 @@
 {
-  "name": "egg-rest",
-  "version": "1.0.0",
+  "name": "@ygjack/egg-rest",
+  "version": "0.0.8",
   "description": "a RESTful plugin",
   "eggPlugin": {
     "name": "rest"
@@ -37,7 +37,9 @@
   "files": [
     "app.js",
     "agent.js",
-    "config"
+    "config",
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "8, 9"

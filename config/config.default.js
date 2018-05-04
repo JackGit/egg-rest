@@ -1,10 +1,13 @@
-'use strict';
+const { DEFAULT_FIELDS_MAPPING } = require('../lib/constants')
 
-/**
- * egg-rest default config
- * @member Config#rest
- * @property {String} SOME_KEY - some description
- */
-exports.rest = {
+module.exports = app => {
+  const exports = {}
 
-};
+  exports.rest = {
+    authIgnore: null,
+    useHttpStatusCode: true,
+    fieldsMapping: DEFAULT_FIELDS_MAPPING
+  }
+
+  return exports
+}
