@@ -1,4 +1,5 @@
-const { paginationObj } = require('../../lib/utils.js')
+const { DEFAULT_FIELDS_MAPPING } = require('../../lib/constants')
+const { paginationObj, fieldName } = require('../../lib/utils')
 
 module.exports = {
   success (data, pagination) {

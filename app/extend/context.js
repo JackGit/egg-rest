@@ -6,7 +6,7 @@ module.exports = {
    *
    * @return {type}  description
    */
-  get restQuery () {}
+  get restQuery () {},
 
 
   /**
